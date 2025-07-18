@@ -28,8 +28,7 @@ workflowSchedule:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
-  baseUrl: /status
+  cname: status.northpole.security
   logoUrl: https://github.com/northpolesec/santa/raw/main/docs/static/img/nps-logo-256.png
   name: Status
   introTitle: "North Pole Security - Global Status"
@@ -38,5 +37,3 @@ status-website:
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org)
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
