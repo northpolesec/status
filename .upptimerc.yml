@@ -15,6 +15,18 @@ sites:
     url: coalmine.northpole.security
     port: 443
     check: "tcp-ping"
+  - name: Push Service Prod (east)
+    url: east1.push.northpole.security
+    port: 443
+    check: "tcp-ping"
+  - name: Push Service Prod (west)
+    url: west1.push.northpole.security
+    port: 443
+    check: "tcp-ping"
+  - name: Push Service Prod (central)
+    url: central1.push.northpole.security
+    port: 443
+    check: "tcp-ping"
   - name: Push Service Staging (east)
     url: east1.staging.push.northpole.security
     port: 443
