@@ -1,43 +1,5 @@
 [
   {
-    "name": "APNSProxy (AWS)",
-    "url": "apnsproxy-aws.workshop.cloud",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "apns-proxy-aws",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 29,
-    "timeDay": 11,
-    "timeWeek": 19,
-    "timeMonth": 25,
-    "timeYear": 29,
-    "dailyMinutesDown": {}
-  },
-  {
-    "name": "APNSProxy (GCP)",
-    "url": "apnsproxy-gcp.workshop.cloud",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "apns-proxy-gcp",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 7,
-    "timeDay": 18,
-    "timeWeek": 11,
-    "timeMonth": 8,
-    "timeYear": 7,
-    "dailyMinutesDown": {
-      "2025-12-12": 0
-    }
-  },
-  {
     "name": "Coalmine",
     "url": "coalmine.northpole.security",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
