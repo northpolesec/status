@@ -3,14 +3,6 @@ owner: northpolesec
 repo: status
 
 sites:
-  - name: APNSProxy (AWS)
-    url: apnsproxy-aws.workshop.cloud
-    port: 443
-    check: "tcp-ping"
-  - name: APNSProxy (GCP)
-    url: apnsproxy-gcp.workshop.cloud
-    port: 443
-    check: "tcp-ping"
   - name: Coalmine
     url: coalmine.northpole.security
     port: 443
