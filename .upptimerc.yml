@@ -19,6 +19,10 @@ sites:
     url: central1.staging.push.northpole.security
     port: 443
     check: "tcp-ping"
+  - name: GAL
+    url: gal.northpole.security
+    port: 443
+    check: "tcp-ping"
 
 workflowSchedule:
   graphs: "0 0 * * *"
