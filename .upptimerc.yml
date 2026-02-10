@@ -3,7 +3,7 @@ owner: northpolesec
 repo: status
 
 sites:
-  - name: Coalmine
+  - name: Billing Server
     url: coalmine.northpole.security
     port: 443
     check: "tcp-ping"
@@ -19,7 +19,7 @@ sites:
     url: central1.staging.push.northpole.security
     port: 443
     check: "tcp-ping"
-  - name: GAL
+  - name: Global Allowlist & Package Rules
     url: gal.northpole.security
     port: 443
     check: "tcp-ping"
