@@ -3,7 +3,7 @@ owner: northpolesec
 repo: status
 
 sites:
-  - name: Billing Server
+  - name: Release Server
     url: coalmine.northpole.security
     port: 443
     check: "tcp-ping"
