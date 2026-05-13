@@ -7,16 +7,16 @@ sites:
     url: coalmine.northpole.security
     port: 443
     check: "tcp-ping"
-  - name: Push Service Staging (east)
-    url: east1.staging.push.northpole.security
+  - name: Push Service (east)
+    url: east1.push.northpole.security
     port: 443
     check: "tcp-ping"
-  - name: Push Service Staging (west)
-    url: west1.staging.push.northpole.security
+  - name: Push Service (west)
+    url: west1.push.northpole.security
     port: 443
     check: "tcp-ping"
-  - name: Push Service Staging (central)
-    url: central1.staging.push.northpole.security
+  - name: Push Service (central)
+    url: central1.push.northpole.security
     port: 443
     check: "tcp-ping"
   - name: Global Allowlist & Package Rules
